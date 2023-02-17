@@ -1,0 +1,38 @@
+[
+    {
+        "bdcompany": [
+            {
+                "name": "Bangla-Puzzle Limited",
+                "location": "Mirpur-1, Dahaka",
+                "logo": "https://www.banglapuzzle.com/uploads/settings/logo.png"
+            },
+            {
+                "name": "Data Soft ",
+                "location": "Bosundara, Dahaka",
+                "logo": "http://datasoft-bd.com/wp-content/themes/DataSoft/img/DS-logo_mobile.png"
+            },
+            {
+                "name": "Newscred",
+                "location": "Bonani, Dahaka",
+                "logo": "https://c.smartrecruiters.com/sr-company-logo-prod/53691b16e4b0a3bde6241091/150px"
+            }
+        ],
+        "worldcompany": [
+            {
+                "name": "Alphabet Inc.",
+                "location": "Mountain View, California, U.S.",
+                "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1-fU7OWD6ZK-irDSy_yJ3rnRbieRBDeh__iS3GHfU&s"
+            },
+            {
+                "name": "Microsoft",
+                "location": "Bosundara, Dahaka",
+                "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqk8fxuLAyzIioTDw5Sd8pJ7SfLWlctxBjmTRNi6Q4&s"
+            },
+            {
+                "name": "Apple",
+                "location": "Bonani, Dahaka",
+                "logo": "https://1000logos.net/wp-content/uploads/2016/10/Apple-Logo.png"
+            }
+        ]
+    }
+]

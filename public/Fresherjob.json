@@ -1,0 +1,38 @@
+[
+        {
+            "pname": "Front-End Developer",
+            "company": "Virat-Anuska IT",
+            "location": "Moharashtro, India",
+            "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjq9DbKh0uIVXqn7vj0lkJcfCDmANT2nNrltcezVpC&s"
+        },
+        {
+            "pname": "Back-End Developer",
+            "company": "Nita-Ambani IT",
+            "location": "Hydrabad, India",
+            "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjq9DbKh0uIVXqn7vj0lkJcfCDmANT2nNrltcezVpC&s"
+        },
+        {
+            "pname": "JavaScript Developer",
+            "company": "Westren IT",
+            "location": "London, UK",
+            "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjq9DbKh0uIVXqn7vj0lkJcfCDmANT2nNrltcezVpC&s"
+        },
+        {
+            "pname": "Laravel Developer",
+            "company": "Future Tech",
+            "location": "Chittagong, Bangladesh",
+            "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjq9DbKh0uIVXqn7vj0lkJcfCDmANT2nNrltcezVpC&s"
+        },
+        {
+            "pname": "Software Engineer",
+            "company": "Creative IT limited",
+            "location": "Dilhi, India",
+            "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjq9DbKh0uIVXqn7vj0lkJcfCDmANT2nNrltcezVpC&s"
+        },
+        {
+            "pname": "Digital Marketer",
+            "company": "Nothing Creative IT",
+            "location": "Mohakali, Dhaka",
+            "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjq9DbKh0uIVXqn7vj0lkJcfCDmANT2nNrltcezVpC&s"
+        }
+]

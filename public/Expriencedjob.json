@@ -1,0 +1,38 @@
+[
+    {
+        "pname": "Full-Stack Developer",
+        "company": "Virat-Anuska IT",
+        "location": "Moharashtro, India",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBzsoWsZYuEk40B-svStnXaUSsApFG2qnQOg&usqp=CAU"
+    },
+    {
+        "pname": "MERN Developer",
+        "company": "Nita-Ambani IT",
+        "location": "Hydrabad, India",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBzsoWsZYuEk40B-svStnXaUSsApFG2qnQOg&usqp=CAU"
+    },
+    {
+        "pname": "Back-End Developer",
+        "company": "Westren IT",
+        "location": "London, UK",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBzsoWsZYuEk40B-svStnXaUSsApFG2qnQOg&usqp=CAU"
+    },
+    {
+        "pname": "PHP Developer",
+        "company": "Future Tech",
+        "location": "Chittagong, Bangladesh",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBzsoWsZYuEk40B-svStnXaUSsApFG2qnQOg&usqp=CAU"
+    },
+    {
+        "pname": "Machine Larning Specialist",
+        "company": "Creative IT limited",
+        "location": "Dilhi, India",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBzsoWsZYuEk40B-svStnXaUSsApFG2qnQOg&usqp=CAU"
+    },
+    {
+        "pname": "Software Engineer",
+        "company": "Nothing Creative IT",
+        "location": "Mohakali, Dhaka",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBzsoWsZYuEk40B-svStnXaUSsApFG2qnQOg&usqp=CAU"
+    }
+]
