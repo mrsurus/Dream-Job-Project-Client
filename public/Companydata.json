@@ -1,5 +1,4 @@
-[
-    {
+ {
         "bdcompany": [
             {
                 "name": "Bangla-Puzzle Limited",
@@ -25,14 +24,13 @@
             },
             {
                 "name": "Microsoft",
-                "location": "Bosundara, Dahaka",
+                "location": "New York, U.S.",
                 "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqk8fxuLAyzIioTDw5Sd8pJ7SfLWlctxBjmTRNi6Q4&s"
             },
             {
                 "name": "Apple",
-                "location": "Bonani, Dahaka",
+                "location": "California, U.S.",
                 "logo": "https://1000logos.net/wp-content/uploads/2016/10/Apple-Logo.png"
             }
         ]
     }
-]

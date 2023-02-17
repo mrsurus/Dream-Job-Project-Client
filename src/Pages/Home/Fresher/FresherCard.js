@@ -4,7 +4,7 @@ const FresherCard = ({ fjob }) => {
     const { pname, location, logo, company } = fjob
     return (
         <div>
-            <div className=' rounded grid grid-cols-3 bg-cyan-400 px-5 py-5'>
+            <div className=' rounded grid grid-cols-3 shadow-2xl px-5 py-5'>
                 <div className=' col-span-2 '>
                     <p className='text-2xl font-bold'>{pname}</p>
 
