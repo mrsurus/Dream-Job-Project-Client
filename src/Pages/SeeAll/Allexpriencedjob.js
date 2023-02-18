@@ -5,7 +5,7 @@ const Allexpriencedjob = () => {
     const [edata, setEdata] = useState([])
 
     useEffect(()=>{
-        fetch('http://localhost:5000/fresherjob')
+        fetch('http://localhost:5000/expriencedjob')
         .then(res => res.json())
         .then(data => setEdata(data))
     },[])
