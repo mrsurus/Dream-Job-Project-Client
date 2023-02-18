@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const ExpriencedCard = ({ejob}) => {
     const { pname, location, logo, company } = ejob
@@ -18,7 +19,7 @@ const ExpriencedCard = ({ejob}) => {
                     </div>
                 </div>
                 <div className='text-end col-span-1 md:my-auto '>
-                    <button className="btn btn-primary sm:btn-sm md:btn-md lg:btn-lg">Apply Now</button>
+                <Link to='/apply' ><button className="btn btn-primary sm:btn-sm md:btn-md lg:btn-lg">Apply Now</button></Link>
                 </div>
             </div>
         </div>

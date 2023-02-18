@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import ExpriencedCard from './ExpriencedCard';
 
 const Exprienced = () => {
     const [Ejobs, setEjobs] = useState([])
 
     useEffect(() => {
-        fetch('Expriencedjob.json')
+        fetch('http://localhost:5000/expriencedjob')
             .then(res => res.json())
             .then(data => setEjobs(data))
     }, [])
@@ -19,7 +20,7 @@ const Exprienced = () => {
                 {
                     Ejobs.slice(3).map((ejob, i) => < ExpriencedCard key={i} ejob={ejob}></ExpriencedCard>)
                 }
-                <button className='btn btn-secondary w-32 mx-auto'>See All Jobs</button>
+                 <div className='w-32 mx-auto'> <Link to='/allexpriencedjob'><button className='btn btn-secondary  text-center'>See All Jobs</button></Link></div>
             </div>
         </div>
     );

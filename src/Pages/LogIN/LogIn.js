@@ -1,18 +1,35 @@
 import React, { useContext, useState } from 'react';
 import { useForm } from 'react-hook-form';
-import { Link } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../Context/AuthProvider';
 
 const LogIn = () => {
-    const {handleSubmit, register, formState: {errors}} = useForm()
-    const { signIn } = useContext(AuthContext)
+    const { handleSubmit, register, formState: { errors } } = useForm()
+    const { signIn,googleLogin } = useContext(AuthContext)
     const [loginError, setLoginError] = useState('')
+    const navigate = useNavigate()
+    const location = useLocation()
+    const from = location.state?.from?.pathname || '/'
 
     const handleLogin = data => {
         setLoginError('')
         signIn(data.email, data.password)
-            .then(res => console.log(res.user))
+            .then(res => {
+                console.log(res.user)
+                navigate(from, { replace: true })
+
+            })
+
             .catch(err => setLoginError(err.message))
+    }
+
+    const handleGoogleLogin = () => {
+        googleLogin()
+            .then(res => {
+                console.log(res.user);
+                navigate(from, { replace: true })
+            })
+            .catch(err => console.log(err))
     }
     return (
         <div className='h-[600px]  flex justify-center items-center  '>
@@ -36,9 +53,8 @@ const LogIn = () => {
                     <input className='btn w-full' defaultValue='logIn' type='Submit' />
                     {loginError && <p className='text-red-500'>{loginError}</p>}
                     <p className='text-center my-3'>New to Doctor's Portal? <Link className='text-success' to='/signup'>Sign Up</Link> </p>
-                    <div className="divider">OR</div>
-                    <button className='btn btn-outline w-full'>SIGN IN WITH GOOGLE</button>
                 </form>
+                <button onClick={ handleGoogleLogin} className='btn btn-success w-full'>SIGN IN WITH GOOGLE</button>
             </div>
         </div>
     );

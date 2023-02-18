@@ -5,13 +5,14 @@ const Bestit = () => {
     const [company, setCompany] = useState([])
 
     useEffect(() => {
-        fetch('Companydata.json')
+        fetch('http://localhost:5000/bestCompany')
             .then(res => res.json())
-            .then(data => setCompany(data))
+            .then(data => setCompany(data[0]))
     }, [])
 
     const bdcompanies = company.bdcompany
     const worldcompanies = company.worldcompany
+    console.log(company)
     return (
         <div className='w-3/4 mx-auto'>
 
