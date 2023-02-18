@@ -6,7 +6,7 @@ const Fresher = ({id}) => {
     const [fjobs, setFjobs] = useState([])
 
     useEffect(() => {
-        fetch('http://localhost:5000/fresherjob')
+        fetch('https://dream-job-server.vercel.app/fresherjob')
             .then(res => res.json())
             .then(data => setFjobs(data))
     }, [])

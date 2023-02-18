@@ -5,6 +5,7 @@ import Apply from "../Pages/Apply/Apply";
 import Contact from "../Pages/contact/Contact";
 import Home from "../Pages/Home/Home/Home";
 import LogIn from "../Pages/LogIN/LogIn";
+import PostJob from "../Pages/PostJob/PostJob";
 import Allexpriencedjob from "../Pages/SeeAll/Allexpriencedjob";
 import Allfresherjob from "../Pages/SeeAll/Allfresherjob";
 import SignUp from "../Pages/SignUp/SignUp";
@@ -46,6 +47,10 @@ const router = createBrowserRouter([
             {
                 path: '/apply',
                 element:<PrivateRoute><Apply></Apply></PrivateRoute>
+            },
+            {
+                path: '/postjob',
+                element:<PrivateRoute><PostJob></PostJob></PrivateRoute>
             },
         ]
     }

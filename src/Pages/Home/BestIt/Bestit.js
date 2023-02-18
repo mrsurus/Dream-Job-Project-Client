@@ -5,7 +5,7 @@ const Bestit = () => {
     const [company, setCompany] = useState([])
 
     useEffect(() => {
-        fetch('http://localhost:5000/bestCompany')
+        fetch('https://dream-job-server.vercel.app/bestCompany')
             .then(res => res.json())
             .then(data => setCompany(data[0]))
     }, [])
